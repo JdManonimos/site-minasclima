@@ -1,7 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-type="service">
 <head>
   <meta charset="UTF-8" />
+  <meta name="page-type" content="service">
+  <meta name="site-kind" content="other">
+  <meta name="theme-color" content="#0c151d">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <title>Minas Clima | Ar-condicionado em Uberlândia-MG</title>
@@ -12,140 +15,63 @@
 </head>
 
 <body>
+  <a class="pular" href="#inicio">Pular para o conteúdo</a>
+  <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-tools" viewBox="0 0 24 24"><path d="M14 6.5a4.5 4.5 0 0 0-5.5 5.6l-5.2 5.2a2.1 2.1 0 0 0 3 3l5.2-5.2A4.5 4.5 0 0 0 17 9.5l-3 3-2.5-2.5Z"/></symbol>
+    <symbol id="i-projects" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="m3 16 5-5 4 4 3-3 6 6M15 8h.01"/></symbol>
+    <symbol id="i-calculator" viewBox="0 0 24 24"><rect x="5" y="2.5" width="14" height="19" rx="2"/><path d="M8 7h8M9 12h.01M15 12h.01M9 16.5h.01M15 16.5h.01"/></symbol>
+    <symbol id="i-contact" viewBox="0 0 24 24"><path d="M20 11.5a8 8 0 0 1-8 8 8.1 8.1 0 0 1-3.5-.8L4 20l1.3-4.5a8 8 0 1 1 14.7-4Z"/><path d="M8.5 11.5h7"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><path d="M17.5 6.5h.01"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+  </svg>
 
-  <!-- TOPO -->
   <header class="topo">
     <div class="container topo-conteudo">
-
-      <a href="#inicio" class="logo-site" aria-label="Minas Clima">
-        <img src="assets\logo\Logo da Minas Clima.png" alt="Minas Clima - Soluções em climatização">
+      <a href="#inicio" class="logo-site" aria-label="Minas Clima, início">
+        <img src="assets/logo/Logo%20da%20Minas%20Clima.png" alt="Minas Clima — Soluções em climatização">
       </a>
-
-      <nav class="menu">
-        <a href="#inicio">Início</a>
-        <a href="#servicos">Serviços</a>
-        <a href="#trabalhos">Trabalhos</a>
-        <a href="#avaliacoes">Avaliações</a>
-        <a href="#onde-estamos">Onde estamos</a>
-        <a href="#contato">Contato</a>
-      </nav>
-
-      <a class="btn-topo" href="https://wa.me/5534996835060?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Minas%20Clima%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="_blank">
-        Orçamento
+      <a class="btn-secundario btn-topo" href="https://wa.me/5534996835060?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Minas%20Clima%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="_blank" rel="noopener">
+        <svg aria-hidden="true"><use href="#i-contact"/></svg> WhatsApp
       </a>
-
     </div>
   </header>
 
-  <!-- PRIMEIRA TELA -->
-  <section id="inicio" class="hero">
-    <div class="container hero-conteudo">
-
-      <div class="hero-texto">
-        <p class="tag">Atendimento em Uberlândia-MG e região</p>
-
-        <h1>Ar-condicionado em Uberlândia-MG com padrão técnico e garantia</h1>
-
-        <p class="subtitulo">
-          Instalação, manutenção, higienização e infraestrutura para residências, comércios e empresas.
-        </p>
-
-        <div class="hero-botoes">
-          <a class="btn-principal" href="https://wa.me/5534996835060?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Minas%20Clima%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="_blank">
-            Solicitar orçamento no WhatsApp
-          </a>
-
-          <a class="btn-secundario" href="#trabalhos">
-            Ver trabalhos realizados
-          </a>
+  <main>
+    <div class="abertura">
+      <section id="inicio" class="hero container" tabindex="-1">
+        <div class="hero-texto">
+          <p class="hero-local">Uberlândia-MG e região</p>
+          <h1>Climatização para <span>casas e empresas.</span></h1>
+          <p>Instalação com garantia, manutenção e higienização. Nossa equipe cuida do acabamento e orienta você sobre o uso do aparelho.</p>
+          <a class="btn-principal" href="https://wa.me/5534996835060?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Minas%20Clima%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="_blank" rel="noopener">Pedir orçamento</a>
         </div>
-      </div>
+        <figure class="hero-foto">
+          <img src="assets/imagens/equipe-industrial-1000.jpg"
+            srcset="assets/imagens/equipe-industrial-600.jpg 600w, assets/imagens/equipe-industrial-1000.jpg 1000w"
+            sizes="(max-width: 624px) calc(100vw - 32px), (max-width: 1192px) 55vw, 640px"
+            width="1000" height="1333" fetchpriority="high"
+            alt="Técnico da Minas Clima com capacete trabalha junto à unidade externa de ar-condicionado em uma área industrial">
+          <figcaption>Equipe Minas Clima em atendimento industrial</figcaption>
+        </figure>
+      </section>
 
-      <div class="hero-card">
-        <div class="hero-rating">
-          <strong>★★★★★</strong>
-          <h2>5,0 no Google</h2>
-          <p>Clientes atendidos em Uberlândia-MG e região.</p>
-        </div>
-
-        <div class="hero-info">
-          <strong>Instalação • Manutenção • Higienização</strong>
-          <span>Atendimento residencial e comercial com acabamento limpo, orientação correta e garantia.</span>
-        </div>
-
-        <div class="hero-mini">
-          <span>✓ Padrão técnico</span>
-          <span>✓ Atendimento local</span>
-          <span>✓ Orçamento pelo WhatsApp</span>
-        </div>
-      </div>
-
+      <nav class="atalhos container" aria-label="Atalhos">
+        <button type="button" id="abrir-calculadora" aria-haspopup="dialog" aria-controls="calculadora" hidden>
+          <svg aria-hidden="true"><use href="#i-calculator"/></svg> Calculadora de BTU
+        </button>
+        <a href="#servicos"><svg aria-hidden="true"><use href="#i-tools"/></svg> Serviços</a>
+        <a href="#trabalhos"><svg aria-hidden="true"><use href="#i-projects"/></svg> Trabalhos</a>
+        <a href="#contato"><svg aria-hidden="true"><use href="#i-contact"/></svg> Contato</a>
+        <noscript><a href="https://wa.me/5534996835060?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Minas%20Clima%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento.">Pedir dimensionamento</a></noscript>
+      </nav>
     </div>
-  </section>
 
-  <!-- AVALIAÇÕES -->
-  <section id="avaliacoes" class="secao avaliacoes">
-    <div class="container">
-
-      <div class="titulo-secao">
-        <span>Prova de confiança</span>
-        <h2>Avaliação 5 estrelas no Google</h2>
-        <p>Veja a reputação da Minas Clima e acompanhe avaliações reais de clientes atendidos.</p>
-      </div>
-
-      <div class="avaliacao-box avaliacao-destaque">
-        <div>
-          <strong>★★★★★</strong>
-          <h3>5,0 no Google</h3>
-          <p>Perfil profissional com avaliações reais de clientes atendidos pela Minas Clima.</p>
-        </div>
-
-        <a class="btn-secundario" href="https://maps.app.goo.gl/dXToyWgzQPiQCbig9" target="_blank">
-          Ver avaliações no Google
-        </a>
-      </div>
-
-      <div class="grid-avaliacoes">
-
-        <article class="card-avaliacao">
-          <div class="avaliacao-topo">
-            <strong>★★★★★</strong>
-            <span>Google</span>
-          </div>
-          <h4>Daniela Pacheco</h4>
-          <p>“Indico demais! Havia contratado 2 profissionais que não resolveram meu problema. Segui uma indicação e os meninos da Minas Clima resolveram meu problema com facilidade.”</p>
-        </article>
-
-        <article class="card-avaliacao">
-          <div class="avaliacao-topo">
-            <strong>★★★★★</strong>
-            <span>Google</span>
-          </div>
-          <h4>Robson Maciel Rocha</h4>
-          <p>“Serviço de qualidade e grande entendimento, super profissionais!”</p>
-        </article>
-
-        <article class="card-avaliacao card-avaliacao-cta">
-          <h4>Veja mais avaliações reais</h4>
-          <p>Acompanhe a reputação da Minas Clima diretamente no Google Maps.</p>
-          <a href="https://maps.app.goo.gl/dXToyWgzQPiQCbig9" target="_blank">
-            Ver avaliações no Google
-          </a>
-        </article>
-
-      </div>
-
-    </div>
-  </section>
-
-  <!-- SERVIÇOS -->
   <section id="servicos" class="secao servicos">
     <div class="container">
 
       <div class="titulo-secao">
-        <span>Nossos serviços</span>
-        <h2>Soluções completas em climatização</h2>
-        <p>Atendimento técnico para instalação, higienização, manutenção e infraestrutura de ar-condicionado.</p>
+        <h2>Serviços</h2>
+        <p class="servicos-equipamentos">Atendemos split, piso-teto e cassete, além de sistemas VRF e multisplit.</p>
       </div>
 
       <div class="grid-servicos">
@@ -184,241 +110,154 @@
     </div>
   </section>
 
-  <!-- TRABALHOS -->
   <section id="trabalhos" class="secao trabalhos">
     <div class="container">
 
       <div class="titulo-secao">
-        <span>Serviços realizados</span>
-        <h2>Trabalhos da Minas Clima</h2>
-        <p>Alguns serviços executados pela equipe, com foco em acabamento, funcionamento correto e padrão técnico.</p>
+        <h2>Trabalhos realizados</h2>
+
       </div>
 
-<div class="grid-trabalhos">
-
-  <article class="trabalho-card">
-    <div class="trabalho-foto">
-      <img src="assets/imagens/instalacao-fujitsu.jpg" alt="Instalação Piso Teto Fujitsu 36.000 BTUs realizada pela Minas Clima">
-    </div>
-    <div class="trabalho-conteudo">
-      <span>Instalação</span>
-      <h3>Piso Teto Fujitsu 36.000 BTUs</h3>
-      <p>Instalação de equipamento para ambiente amplo, com atenção ao posicionamento, acabamento e funcionamento.</p>
-    </div>
-  </article>
-
-  <article class="trabalho-card">
-    <div class="trabalho-foto">
-      <img src="assets/imagens/instalacao-lg.jpg" alt="Instalação de ar-condicionado LG 9.000 BTUs com canaleta e dreno">
-    </div>
-    <div class="trabalho-conteudo">
-      <span>Instalação</span>
-      <h3>LG 9.000 BTUs com acabamento</h3>
-      <p>Uso de canaleta e direcionamento do dreno para evitar gotejamento em área de circulação.</p>
-    </div>
-  </article>
-
-  <article class="trabalho-card">
-    <div class="trabalho-foto">
-      <img src="assets/imagens/higienizacao.jpg" alt="Higienização preventiva de ar-condicionado realizada pela Minas Clima">
-    </div>
-    <div class="trabalho-conteudo">
-      <span>Higienização</span>
-      <h3>Higienização preventiva</h3>
-      <p>Limpeza técnica para ajudar na qualidade do ar, reduzir sujeira acumulada e mau cheiro.</p>
-    </div>
-  </article>
-
-  <article class="trabalho-card">
-    <div class="trabalho-foto">
-      <img src="assets/imagens/infraestrutura.jpg" alt="Infraestrutura para instalação de ar-condicionado realizada pela Minas Clima">
-    </div>
-    <div class="trabalho-conteudo">
-      <span>Infraestrutura</span>
-      <h3>Preparação para climatização</h3>
-      <p>Infraestrutura com tubulação, dreno e preparação para instalação dos equipamentos.</p>
-    </div>
-  </article>
-
-</div>
-
-      <div class="centralizar">
-        <a class="btn-principal" href="https://wa.me/5534996835060?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Minas%20Clima%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="_blank">
-          Quero um orçamento para meu ambiente
-        </a>
+      <div class="grid-trabalhos">
+        <figure class="trabalho-card">
+          <div class="trabalho-foto">
+            <img src="assets/imagens/acabamento-canaleta-ccbe.jpg" width="640" height="853" loading="lazy" decoding="async"
+              alt="Condensadora ao lado de uma canaleta vertical branca na fachada, com a placa da CCBE ao lado">
+          </div>
+          <figcaption class="trabalho-conteudo">Instalação com acabamento em canaleta na CCBE</figcaption>
+        </figure>
+        <figure class="trabalho-card">
+          <div class="trabalho-foto">
+            <img src="assets/imagens/servico-piso-teto.jpg" width="640" height="853" loading="lazy" decoding="async"
+              alt="Técnico trabalhando em um aparelho de ar-condicionado piso-teto">
+          </div>
+          <figcaption class="trabalho-conteudo">Serviço em equipamento piso-teto</figcaption>
+        </figure>
+        <figure class="trabalho-card">
+          <div class="trabalho-foto">
+            <img src="assets/imagens/lavagem-de-carenagem.jpg" width="640" height="853" loading="lazy" decoding="async"
+              alt="Técnico uniformizado lavando a carenagem desmontada de um ar-condicionado">
+          </div>
+          <figcaption class="trabalho-conteudo">Higienização da carenagem</figcaption>
+        </figure>
+        <figure class="trabalho-card">
+          <div class="trabalho-foto">
+            <img src="assets/imagens/tecnico-split-residencial.jpg" width="640" height="853" loading="lazy" decoding="async"
+              alt="Técnico trabalha na unidade interna aberta de um split em uma residência">
+          </div>
+          <figcaption class="trabalho-conteudo">Atendimento em split residencial</figcaption>
+        </figure>
       </div>
-
     </div>
   </section>
 
-  <!-- INSTAGRAM -->
-  <section class="secao instagram">
-    <div class="container instagram-box">
-
+  <section id="avaliacoes" class="secao avaliacoes" data-google-key="" data-place-id="" aria-labelledby="avaliacoes-titulo">
+    <div class="container avaliacao-box">
       <div>
-        <span>Instagram</span>
-        <h2>Acompanhe nossos serviços no Instagram</h2>
-        <p>Veja bastidores, trabalhos realizados, instalações, higienizações, manutenções e dicas sobre ar-condicionado.</p>
+        <h2 id="avaliacoes-titulo">Avaliações de clientes</h2>
+
       </div>
-
-      <a class="btn-principal" href="https://www.instagram.com/_minasclima" target="_blank">
-        Ver @_minasclima
-      </a>
-
+      <div class="avaliacao-acoes">
+        <button type="button" id="carregar-avaliacoes" class="btn-principal" aria-controls="avaliacoes-google" hidden>Ver avaliações aqui</button>
+        <a class="btn-secundario" href="https://maps.app.goo.gl/dXToyWgzQPiQCbig9" target="_blank" rel="noopener">Ver avaliações no Google</a>
+      </div>
+    </div>
+    <div class="container">
+      <p id="avaliacoes-status" role="status"></p>
+      <div id="avaliacoes-google" class="avaliacoes-google" hidden>
+        <p class="avaliacoes-fonte" translate="no">Google Maps</p>
+        <ul id="avaliacoes-lista" class="avaliacoes-lista"></ul>
+        <p id="avaliacoes-provedores" class="avaliacoes-fonte" hidden></p>
+      </div>
     </div>
   </section>
 
-  <!-- ATENDIMENTO -->
-  <section class="secao atendimento">
-    <div class="container">
-
-      <div class="atendimento-box">
-        <h2>Atendimento residencial e comercial</h2>
-        <p>
-          Atendemos casas, apartamentos, lojas, clínicas, salões, escritórios, hotéis e empresas que precisam manter seus ambientes climatizados com segurança, conforto e eficiência.
-        </p>
-
-        <a class="btn-principal" href="https://wa.me/5534996835060?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Minas%20Clima%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="_blank">
-          Falar com especialista
-        </a>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- DIFERENCIAIS -->
-  <section class="secao diferenciais">
-    <div class="container">
-
-      <div class="titulo-secao">
-        <span>Por que escolher</span>
-        <h2>O padrão Minas Clima</h2>
-        <p>Mais do que instalar ou higienizar, nosso foco é entregar uma solução correta para cada ambiente.</p>
-      </div>
-
-      <div class="grid-diferenciais">
-        <div>Padrão técnico na execução</div>
-        <div>Acabamento limpo</div>
-        <div>Garantia no serviço</div>
-        <div>Atendimento em Uberlândia-MG e região</div>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- ONDE ESTAMOS -->
-  <section id="onde-estamos" class="secao onde-estamos">
-    <div class="container">
-
-      <div class="titulo-secao">
-        <span>Localização</span>
-        <h2>Onde estamos</h2>
-        <p>Estamos localizados em Uberlândia-MG, com atendimento para a cidade e região.</p>
-      </div>
-
-      <div class="mapa-box">
-        <div class="mapa-info">
-          <h3>Minas Clima</h3>
-          <p><strong>Endereço:</strong> Av. Ana Godoy, 2989 - Segismundo Pereira</p>
-          <p><strong>Cidade:</strong> Uberlândia/MG - CEP 38411-070</p>
-          <p><strong>Horário:</strong> Segunda a sábado, das 08:00 às 18:00</p>
-
-          <a class="btn-principal" href="https://maps.app.goo.gl/dXToyWgzQPiQCbig9" target="_blank">
-            Abrir no Google Maps
+    <section id="contato" class="secao contato" aria-labelledby="contato-titulo">
+      <div class="container contato-grid">
+        <div>
+          <h2 id="contato-titulo">Contato e endereço</h2>
+          <p>Segunda a sábado, das 08:00 às 18:00.</p>
+          <p>Mateus <a href="tel:+5534996835060">(34) 99683-5060</a><br>
+            Heitor <a href="tel:+5534996632770">(34) 99663-2770</a><br>
+            <a href="mailto:contato@minasclima.com">contato@minasclima.com</a></p>
+          <a class="contato-social" href="https://www.instagram.com/_minasclima" target="_blank" rel="noopener">
+            <svg aria-hidden="true"><use href="#i-instagram"/></svg> Instagram @_minasclima
           </a>
         </div>
-
-        <div class="mapa-frame">
-          <iframe
-            src="https://www.google.com/maps?q=Av.%20Ana%20Godoy%2C%202989%20-%20Segismundo%20Pereira%2C%20Uberl%C3%A2ndia%20MG&output=embed"
-            width="100%"
-            height="100%"
-            style="border:0;"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            title="Localização da Minas Clima no mapa">
-          </iframe>
+        <div id="onde-estamos">
+          <address>Av. Ana Godoy, 2989 · Segismundo Pereira<br>Uberlândia/MG · CEP 38411-070</address>
+          <a class="contato-mapa" href="https://maps.app.goo.gl/dXToyWgzQPiQCbig9" target="_blank" rel="noopener">Abrir no Google Maps</a>
+          <p>Pagamentos em Pix, dinheiro, débito e crédito.</p>
         </div>
       </div>
+    </section>
+  </main>
 
-    </div>
-  </section>
-
-  <!-- CONTATO -->
-  <section id="contato" class="secao contato">
-    <div class="container contato-box">
-
-      <div>
-        <span>Solicite seu orçamento</span>
-        <h2>Fale com a Minas Clima</h2>
-        <p>
-          Envie as informações do seu equipamento ou ambiente para receber uma orientação mais precisa.
-        </p>
-      </div>
-
-      <div class="contato-info">
-        <h3>Atendimento rápido pelo WhatsApp</h3>
-
-        <p>
-          Fale com a equipe da Minas Clima e solicite uma orientação para instalação, manutenção, higienização ou infraestrutura.
-        </p>
-
-        <p><strong>Mateus:</strong> (34) 99683-5060</p>
-        <p><strong>Heitor:</strong> (34) 99663-2770</p>
-
-        <a class="btn-principal" href="https://wa.me/5534996835060?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Minas%20Clima%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="_blank">
-          Chamar no WhatsApp
-        </a>
-      </div>
-
-    </div>
-  </section>
-
-  <!-- RODAPÉ -->
   <footer class="rodape">
-    <div class="container rodape-grid">
-
-      <div class="rodape-coluna">
-        <h3>Minas Clima</h3>
-        <p>Soluções em climatização para residências, comércios e empresas em Uberlândia-MG e região.</p>
-        <p><strong>CNPJ:</strong> 66.388.049/0001-71</p>
-      </div>
-
-      <div class="rodape-coluna">
-        <h4>Contato</h4>
-        <p><strong>Mateus:</strong> (34) 99683-5060</p>
-        <p><strong>Heitor:</strong> (34) 99663-2770</p>
-        <p><strong>E-mail:</strong> contato@minasclima.com</p>
-        <p><strong>Instagram:</strong> @_minasclima</p>
-      </div>
-
-      <div class="rodape-coluna">
-        <h4>Endereço</h4>
-        <p>Av. Ana Godoy, 2989</p>
-        <p>Segismundo Pereira</p>
-        <p>Uberlândia/MG - CEP 38411-070</p>
-      </div>
-
-      <div class="rodape-coluna">
-        <h4>Atendimento</h4>
-        <p>Segunda a sábado</p>
-        <p>Das 08:00 às 18:00</p>
-        <p><strong>Pagamentos:</strong> Pix, dinheiro, débito e crédito.</p>
-      </div>
-
-    </div>
-
-    <div class="rodape-copy">
-      <p>© 2026 Minas Clima — Todos os direitos reservados.</p>
+    <div class="container rodape-linha">
+      <p>© 2026 Minas Clima · CNPJ 66.388.049/0001-71</p>
+      <a href="#inicio">Voltar ao topo</a>
     </div>
   </footer>
 
-  <!-- BOTÃO FLUTUANTE WHATSAPP -->
-  <a class="whatsapp-fixo" href="https://wa.me/5534996835060?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Minas%20Clima%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="_blank" aria-label="Chamar no WhatsApp">
-    WhatsApp
+  <a class="whatsapp-fixo" href="https://wa.me/5534996835060?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Minas%20Clima%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="_blank" rel="noopener" aria-label="Chamar a Minas Clima no WhatsApp">
+    <svg aria-hidden="true"><use href="#i-contact"/></svg>
+    <span>WhatsApp</span>
   </a>
 
-  <script src="script.js"></script>
+  <dialog id="calculadora" class="calculadora" aria-labelledby="calculadora-titulo">
+    <div class="calculadora-conteudo">
+      <div class="calculadora-cabecalho">
+        <h2 id="calculadora-titulo">Calculadora de BTU/h</h2>
+        <form method="dialog">
+          <button class="fechar-calculadora" type="submit" aria-label="Fechar calculadora" autofocus>
+            <svg aria-hidden="true"><use href="#i-close"/></svg>
+          </button>
+        </form>
+      </div>
+      <p class="calculadora-intro">Estimativa inicial da capacidade de refrigeração do ambiente.</p>
+      <form id="form-btu" class="calculadora-form">
+        <div class="calculadora-campos">
+          <label for="btu-area">Área do ambiente (m²)
+            <input id="btu-area" name="area" type="number" inputmode="decimal" min="0.01" step="any" required>
+          </label>
+          <label for="btu-pessoas">Pessoas ao mesmo tempo
+            <input id="btu-pessoas" name="pessoas" type="number" inputmode="numeric" min="0" step="1" value="1" required>
+          </label>
+          <label for="btu-aparelhos">Aparelhos que emitem calor
+            <input id="btu-aparelhos" name="aparelhos" type="number" inputmode="numeric" min="0" step="1" value="0" aria-describedby="btu-aparelhos-ajuda" required>
+            <span id="btu-aparelhos-ajuda">Ex.: TVs e computadores em uso.</span>
+          </label>
+          <label for="btu-uso">Tipo de ambiente
+            <select id="btu-uso" name="uso">
+              <option value="residencial">Residencial</option>
+              <option value="comercial">Comercial</option>
+            </select>
+          </label>
+          <label for="btu-sol">Incidência de sol
+            <select id="btu-sol" name="sol">
+              <option value="pouco">Pouco ou nenhum sol direto</option>
+              <option value="forte">Sol direto forte</option>
+            </select>
+          </label>
+        </div>
+        <button type="submit" class="btn-principal">Calcular capacidade</button>
+        <output id="btu-resultado" for="btu-area btu-pessoas btu-aparelhos btu-uso btu-sol" aria-live="polite" aria-atomic="true"></output>
+        <noscript><p>Ative o JavaScript para usar a calculadora ou peça o dimensionamento pelo WhatsApp.</p></noscript>
+      </form>
+      <div class="calculadora-ajuda">
+        <p>Para comércios com alta circulação, confirme a capacidade antes de escolher o equipamento.</p>
+        <a href="https://wa.me/5534996835060?text=Ol%C3%A1%2C%20vim%20pelo%20site%20da%20Minas%20Clima%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="_blank" rel="noopener">Pedir dimensionamento pelo WhatsApp</a>
+        <details class="calculadora-metodo">
+          <summary>Como a estimativa é calculada</summary>
+          <p>Somamos a área em m², as pessoas além da primeira e os aparelhos que emitem calor. Multiplicamos essa soma por 800 para comércio ou sol forte, e por 600 nos demais casos.</p>
+          <p>Referências <a href="https://blog.frigelar.com.br/saiba-como-calcular-btus-ar-condicionado/">Como calcular os BTUs</a> e <a href="https://blog.frigelar.com.br/o-que-e-btu/">O que é BTU?</a>, da Frigelar.</p>
+        </details>
+      </div>
+    </div>
+  </dialog>
+
+  <script src="calculadora.js" defer></script>
+  <script src="avaliacoes.js" defer></script>
 </body>
 </html>
