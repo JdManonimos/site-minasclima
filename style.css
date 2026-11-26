@@ -104,6 +104,13 @@ svg { display: block; width: 1.3rem; height: 1.3rem; fill: none; stroke: current
 
 .contato { background: var(--surface); }
 .contato-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: center; gap: 1rem; }
+.contato-mapa-preview {
+  display: block;
+  width: 100%;
+  height: clamp(12rem, 26vw, 14rem);
+  border: 1px solid var(--line);
+  border-radius: .65rem;
+}
 .contato address { font-style: normal; }
 .contato p, .contato address, .rodape { color: var(--muted); }
 .contato-social, .contato-mapa, .rodape a { display: inline-flex; align-items: center; gap: .45rem; min-height: 2.75rem; }
